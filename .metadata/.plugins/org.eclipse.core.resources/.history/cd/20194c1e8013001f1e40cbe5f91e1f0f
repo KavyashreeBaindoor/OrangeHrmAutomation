@@ -1,0 +1,50 @@
+package Datadriven.Pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class Login {
+	
+	private WebDriver driver;
+	
+	Login(WebDriver d){
+		this.driver=d;
+	}
+	
+	
+	//locators using By class
+	private By username =By.name("username");
+	private By password =By.name("password");
+	private By loginBtn =By.xpath("//button[contains(@class,' oxd-button--main')]");
+	
+	//actions
+	
+	public void userName(String un){
+		
+		if(driver.findElement(username).isDisplayed() && driver.findElement(username).isEnabled())
+		driver.findElement(username).sendKeys(un);
+		
+	}
+
+	public void password(String pass){
+		
+
+		if(driver.findElement(password).isDisplayed() && driver.findElement(password).isEnabled())
+		driver.findElement(password).sendKeys(pass);
+	}
+
+	public void clickLogin(){
+		
+		if(driver.findElement(loginBtn).isDisplayed() && driver.findElement(loginBtn).isEnabled())
+		driver.findElement(loginBtn).click();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

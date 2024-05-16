@@ -124,3 +124,47 @@
 2024-05-16 04:56:57,936 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-05-16 04:56:57,937 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\2024\CapstoneProject\Hrm\src\test\resources
 2024-05-16 04:59:07,133 [Worker-22: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: OrangeHrm:Hrm:0.0.1-SNAPSHOT @ F:\2024\CapstoneProject\Hrm\pom.xml.
+2024-05-16 05:00:01,863 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 05:00:01,864 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\2024\CapstoneProject\Hrm\src\main\resources
+2024-05-16 05:00:01,988 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 05:00:02,676 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\2024\CapstoneProject\Hrm\src\test\resources
+2024-05-16 05:00:14,699 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-05-16 05:00:19,523 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: OrangeHrm:Hrm:0.0.1-SNAPSHOT @ F:\2024\CapstoneProject\Hrm\pom.xml.
+2024-05-16 05:00:28,279 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Hrm/src/main/java
+2024-05-16 05:00:28,279 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Hrm/src/main/resources
+2024-05-16 05:00:28,282 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Hrm/src/test/java
+2024-05-16 05:00:28,282 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Hrm/src/test/resources
+2024-05-16 05:00:30,758 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 1.00 sec, refresh facades takes 5.00 sec, update config takes 8.00 sec 
+2024-05-16 05:00:38,625 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 05:00:38,626 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\2024\CapstoneProject\Hrm\src\main\resources
+2024-05-16 05:00:38,636 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 05:00:38,636 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\2024\CapstoneProject\Hrm\src\test\resources
+2024-05-16 05:08:11,282 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 05:08:11,287 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\2024\CapstoneProject\Hrm\src\main\resources
+2024-05-16 05:08:11,294 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 05:08:11,295 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\2024\CapstoneProject\Hrm\src\test\resources
+2024-05-16 05:09:38,065 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.3; built: 2023-10-27T03:25:22.284Z; git: a873259fd5af141dedaa6c7fa8fe8fbdedce0d61; jvm 17.0.9+11-LTS-201
+2024-05-16 05:09:38,649 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@7fa744ce{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@1fcd897{STARTED}}
+2024-05-16 05:09:38,666 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-05-16 05:09:39,022 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@4640fbaf{HTTP/1.1, (http/1.1)}{127.0.0.1:56264}
+2024-05-16 05:09:39,150 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@5dc54498{STARTING}[12.0.3,sto=0] @4266177ms
+2024-05-16 05:28:09,828 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 05:28:10,698 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\2024\CapstoneProject\Hrm\src\main\resources
+2024-05-16 05:28:10,770 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 05:28:10,770 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\2024\CapstoneProject\Hrm\src\test\resources
+2024-05-16 05:30:46,853 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 05:30:46,855 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\2024\CapstoneProject\Hrm\src\main\resources
+2024-05-16 05:30:46,919 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 05:30:46,920 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\2024\CapstoneProject\Hrm\src\test\resources
+2024-05-16 05:31:38,936 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 05:31:38,936 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\2024\CapstoneProject\Hrm\src\main\resources
+2024-05-16 05:31:38,943 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 05:31:38,944 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\2024\CapstoneProject\Hrm\src\test\resources
+2024-05-16 05:31:48,256 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 05:31:48,259 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\2024\CapstoneProject\Hrm\src\main\resources
+2024-05-16 05:31:48,266 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 05:31:48,267 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\2024\CapstoneProject\Hrm\src\test\resources
+2024-05-16 05:34:59,247 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 05:34:59,249 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\2024\CapstoneProject\Hrm\src\main\resources
+2024-05-16 05:34:59,254 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-16 05:34:59,254 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\2024\CapstoneProject\Hrm\src\test\resources
