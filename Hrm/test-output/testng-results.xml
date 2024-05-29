@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Log: Apllication is open]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-05-24T07:49:56 GMT-07:00" name="Default suite" finished-at="2024-05-24T07:51:26 GMT-07:00" duration-ms="90667">
+    <groups>
+    </groups>
+    <test started-at="2024-05-24T07:49:56 GMT-07:00" name="Default test" finished-at="2024-05-24T07:51:26 GMT-07:00" duration-ms="90667">
+      <class name="Datadriven.TestCases.Admin">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:Datadriven.TestCases.Admin@5656be13]" started-at="2024-05-24T07:49:56 GMT-07:00" name="setUpBrowser" finished-at="2024-05-24T07:51:06 GMT-07:00" duration-ms="69514" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Log: Apllication is open]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="Login()[pri:1, instance:Datadriven.TestCases.Admin@5656be13]" started-at="2024-05-24T07:51:06 GMT-07:00" name="Login" finished-at="2024-05-24T07:51:10 GMT-07:00" duration-ms="4456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="clickOnAdmin()[pri:2, instance:Datadriven.TestCases.Admin@5656be13]" started-at="2024-05-24T07:51:11 GMT-07:00" name="clickOnAdmin" finished-at="2024-05-24T07:51:18 GMT-07:00" duration-ms="7206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnAdmin -->
+        <test-method signature="searchByUserName()[pri:3, instance:Datadriven.TestCases.Admin@5656be13]" started-at="2024-05-24T07:51:18 GMT-07:00" name="searchByUserName" finished-at="2024-05-24T07:51:20 GMT-07:00" duration-ms="2280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByUserName -->
+        <test-method signature="searchByUserRole()[pri:4, instance:Datadriven.TestCases.Admin@5656be13]" started-at="2024-05-24T07:51:20 GMT-07:00" name="searchByUserRole" finished-at="2024-05-24T07:51:26 GMT-07:00" duration-ms="6034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByUserRole -->
+        <test-method signature="searchByUserStatus()[pri:5, instance:Datadriven.TestCases.Admin@5656be13]" started-at="2024-05-24T07:51:26 GMT-07:00" name="searchByUserStatus" finished-at="2024-05-24T07:51:26 GMT-07:00" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByUserStatus -->
+      </class> <!-- Datadriven.TestCases.Admin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

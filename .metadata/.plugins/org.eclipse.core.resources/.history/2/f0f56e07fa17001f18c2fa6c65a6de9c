@@ -1,0 +1,40 @@
+package Datadriven.TestCases;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+import org.testng.Assert;
+
+public class LoginLogout  extends BaseTest{
+	String expected="Invalid credentials";
+	
+	
+  @Test(dataProvider = "dp1",dataProviderClass=Datadriven.utility.ExcelDataSupplier.class)
+  public void LoginLogout(String username,String pw) {
+	 System.out.println(username+""+pw);
+	 lp.doLogin(username,pw);
+	 String curl=lp.getUrl();
+	 
+	 if(curl.contains("dashboard")) {
+	 // Assert.assertTrue(curl.contains("dashboard"),"Fail:Url not matches");
+		 lo.logout();
+		 
+	 }else
+	 {
+		String actual= lp.getErrorMssg();
+		Assert.assertEquals(actual, expected);
+	 }
+	  
+	  
+	 
+	 
+  }}
+  
+  
+  
+  
+/*
+ * @DataProvider(name="data1") public String[][] dp4() {
+ * 
+ * String[][] obj= new String[2][2]; obj[0][0]= "Admin"; obj[0][1]="admin123";
+ * obj[1][0]="arb"; obj[1][1]="jaya"; return obj; } }
+ */

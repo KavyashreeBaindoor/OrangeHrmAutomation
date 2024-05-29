@@ -7,7 +7,7 @@ public class Logout {
 	
 private WebDriver driver;
 	
-	Logout(WebDriver d){
+	public Logout(WebDriver d){
 		this.driver=d;
 	}
 	

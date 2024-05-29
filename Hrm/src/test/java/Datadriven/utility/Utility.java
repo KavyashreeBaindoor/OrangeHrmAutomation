@@ -17,14 +17,27 @@ public class Utility {
 	
 	
 	//screenshot
-	public static void getScreenshot(WebDriver driver) throws IOException {
+	public static String getScreenshot(WebDriver driver) throws IOException {
 		
-		
+		 addWait();
 		TakesScreenshot ts=(TakesScreenshot)driver;
 		File f=ts.getScreenshotAs(OutputType.FILE); 
-		FileUtils.copyFile(f,new File("./Screenshots/"+System.currentTimeMillis()+".jpg"));
+		File dest=new File("./Screenshots/"+System.currentTimeMillis()+".png");
+		FileUtils.copyFile(f,dest);
+		
+		return dest.getAbsolutePath();
 		
 		
+	}
+	
+	public static void addWait()
+	{
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 	
 	

@@ -7,7 +7,7 @@ public class Login {
 	
 	private WebDriver driver;
 	
-	Login(WebDriver d){
+	public Login(WebDriver d){
 		this.driver=d;
 	}
 	
@@ -16,6 +16,7 @@ public class Login {
 	private By username =By.name("username");
 	private By password =By.name("password");
 	private By loginBtn =By.xpath("//button[contains(@class,' oxd-button--main')]");
+	private By ErrorMssg=By.xpath("//p[@class='oxd-text oxd-text--p oxd-alert-content-text']");
 	
 	//actions
 	
@@ -27,8 +28,6 @@ public class Login {
 	}
 
 	public void password(String pass){
-		
-
 		if(driver.findElement(password).isDisplayed() && driver.findElement(password).isEnabled())
 		driver.findElement(password).sendKeys(pass);
 	}
@@ -49,6 +48,11 @@ public class Login {
 		return driver.getTitle();
 	}
 	
+	
+	public String getErrorMssg()
+	{
+		return driver.findElement(ErrorMssg).getText();
+	}
 	public void doLogin(String un,String psw)
 	{
 		userName(un);
@@ -57,10 +61,6 @@ public class Login {
 		
 		
 	}
-	
-	
-	
-	
 	
 	
 

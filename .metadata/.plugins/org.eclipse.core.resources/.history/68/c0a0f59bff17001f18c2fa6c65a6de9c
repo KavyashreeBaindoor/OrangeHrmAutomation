@@ -1,0 +1,21 @@
+package Datadriven.TestCases;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class Admin extends BaseTestAdmin{
+	
+	@Test(priority=1)
+	 public void Login() {
+		 lp.userName("Admin");
+		lp.password("admin123");
+		lp.clickLogin();
+		
+	  }
+	 
+	 
+  @Test(priority=2)
+  public void clickOnAdmin() {
+	  ad.clickOnAdmin();
+  }
+}

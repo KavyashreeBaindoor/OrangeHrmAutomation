@@ -1,0 +1,40 @@
+package Datadriven.Pages;
+
+import java.util.List;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class Admin {
+	
+	WebDriver d;
+
+	public Admin(WebDriver d) {
+		super();
+		this.d = d;
+		PageFactory.initElements(d, this);
+	}
+	
+	
+	
+	@FindBy(xpath="//ul[@class='oxd-main-menu']/li/a/span")
+	private List<WebElement> menu;
+	
+	public void clickOnAdmin() {
+	System.out.println(menu.size());
+	
+for(WebElement a:menu) {
+	if(a.getText().contains("Admin")) {
+		a.click();
+		break;
+	}
+}
+	
+	
+	}
+	
+	
+
+}
